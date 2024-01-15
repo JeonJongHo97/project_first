@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+/* 섹션 */
+section { width: 100%; height: 3300px;  margin: 0 auto; padding: 30px 0 20px 0;}
+section  .article {padding: 50px 0; position: absolute;  }
+
+#introduce {width: 1200px; height: 1100px; margin: 30px auto;
+text-align: center; font-size: 20px; position: relative;}
+
+
+#introduce > .xbox {width: 100px; height: 150px; background-color: aquamarine; position: absolute; opacity: 0.3; left: 34.5%;}
+
+
+#introduce > .hotel2 {width: 420px; height: 280px; border: 2px solid #666; float: left;
+margin: 80px 0 0 0;}
+    .hotel2 img {width: 100%; height: 100%; box-shadow: 5px 5px 5px 0 #666;}
+    .hotel2 img:hover {opacity: 0.7;}
+
+#introduce > .hotel3 {width: 630px; height: 280px; border: 2px solid #666; float: right;
+   margin: 80px 0 0 0;}
+   .hotel3 img {width: 100%; height: 100%;box-shadow: 5px 5px 5px #666;}
+   .hotel3 img:hover {opacity: 0.7;}
+
+#introduce > .hotel4 {width: 630px; height: 280px; border: 2px solid #666; float: left;
+   margin: 100px 0 0 0;}
+   .hotel4 img {width: 100%; height: 100%; box-shadow: 5px 5px 5px #666;}
+   .hotel4 img:hover {opacity: 0.7;}
+
+#introduce > .hotel5 {width: 420px; height: 280px; border: 2px solid #666; float: right;
+   margin: 100px 0 0 0;}
+   .hotel5 img {width: 100%; height: 100%; box-shadow: 5px 5px 5px #666;}
+   .hotel5 img:hover {opacity: 0.7;}
+
+
+/* 객실 */
+#room1 { width: 100%; height: 750px; position: relative; background-image: url(../img/객실5.jpg); background-size: 100% 100%; font-size: 20px;}
+#room1 .overlay {width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; opacity: 0.5; background-color:  #fff;}
+#room { width: 1200px; height: 750px; margin: 50px 0 0 400px; text-align: center;  position: absolute; top: 0; left: 0; z-index: 3; font-size: 20px;}
+
+#room p {color: black; }
+
+#room > .box { width: 320px; height: 300px; float: left;}
+#room > .box img { width: 100%;  height: 100%; margin: 0 0 50px 0; }
+#room > div:nth-of-type(2) {margin: 0 100px 0;}
+#room > .box h4 {text-align: center; font-size: 25px;}
+#room > .box p {text-align: center; color: black; font-size: 15px; }
+
+
+#around { width: 1200px; height: 610px; margin: 60px auto; text-align: center ; position: relative;}
+#around .xbox1 {width: 100px; height: 100px; background-color: aquamarine; opacity: 0.3; position: absolute; left: 41%;}
+#around .view {width: 540px; height: 440px; background-color: green; float: left; margin:  10px 0 0 40px;}
+.view img {width: 100%; height: 100%;}
+
+
+/* 가이드 */
+#guide {width: 100%; height: 320px; background-color: burlywood; background-image: url(../img/바닷가2.jpg);background-size: 100% 100%; display: flex; justify-content: center; }
+
+#guide > .self { width: 540px; height: 190px; margin: 150px 20px 0; position: relative; border: 20px solid #fff;}
+
+.self img { width: 100%; height: 100%; position: relative; background:white;opacity: 0.5;}
+.self p { font-size: 40px; position: absolute; top: 35%; left: 10%; color: black; font-family: 'Black Han Sans', sans-serif; }
+.self button { width: 150px; height: 70px; position: absolute; right: 15%; top: 30%; opacity: 0.8; font-size: 20px; font-weight: bold; border-radius: 50px;} 
+.self button:hover { background-color: #666; cursor: pointer; opacity: 0.7;}
